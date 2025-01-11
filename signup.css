@@ -1,0 +1,88 @@
+body {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: #f5fcff;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    width: 400px;
+    font-weight: lighter;
+    padding: 16px;
+    background-color: white;
+    margin: 50px auto;
+    border: 1px solid #d2d1d1;
+    border-radius: 3px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-container h2 {
+    margin-bottom: 0.2px;
+    font-weight: 400;
+    font-size: xx-large;
+    color: black;
+}
+
+.signup-container p {
+    font-size: small;
+    color: black;
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0.5px solid #0350b4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #ccc;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover {
+    background-color: #f5fcff;
+    color: black;
+}
+
+.signup-container button {
+    background-color: #0572ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 01;
+    background-color: #0350b4;
+}
+
+.container label {
+    text-align: left;
+    display: block;
+}
+
+.signup-container {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.old-login {
+    font-size: small;
+}
+
+.link {
+    color: #2854ff;
+}
